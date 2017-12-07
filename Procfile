@@ -1,1 +1,1 @@
-web: gunicorn movie-search:app --log-file=-
+web: gunicorn movie-search:app --preload
