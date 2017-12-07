@@ -1,1 +1,1 @@
-web: gunicorn maovie-search.wsgi --log-file -
+web: gunicorn movie-search.wsgi --log-file -
