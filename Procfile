@@ -1,1 +1,1 @@
-web: gunicorn movie-search.wsgi -b 0.0.0.0:$PORT
+web: gunicorn movie-search:app --log-file=-
