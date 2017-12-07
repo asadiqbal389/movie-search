@@ -1,1 +1,1 @@
-web: gunicorn movie-search:app --preload
+web: gunicorn movies.wsgi --log-file -
